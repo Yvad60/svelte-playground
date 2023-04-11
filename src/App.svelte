@@ -1,9 +1,7 @@
-<script></script>
+<script>
+  import Card from "./lib/Card.svelte";
+</script>
 
-<main>
-  <h1 class="text-xl font-semibold text-red-500 underline text-center">
-    Hello Svelte
-  </h1>
+<main class="flex items-center justify-center h-screen bg-very-dark-blue">
+  <Card />
 </main>
-
-<style></style>
